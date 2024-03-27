@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: "IM Fell English SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#volleyball {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/564x/c0/d5/ad/c0d5ad00c27fad0f40e893f3e8ec6753.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80vw;
+    opacity: 0.3;
+    position: relative;
+}
+
+#volleyball_in {
+    background-color: rgba(212, 95, 31);
+    border-radius: 23% 77% 11% 89% / 70% 27% 73% 30%;
+    width: 70vw;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition-property: background-color opacity;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    opacity: 0.5;
+}
+
+#volleyball_txt {
+    padding: 0 0;
+    position: absolute;
+    visibility: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-family: "Rampart One", sans-serif;
+    color: rgb(216, 178, 157);
+}
+
+#volleyball_in:hover #volleyball_txt {
+    visibility: visible;
+
+}
+
+#volleyball_in:hover {
+    /* trans. */
+    transition-property: background-color opacity;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    background-color: black;
+    opacity: 1;
+}
+
+.half {
+    width: 100vw;
+    height: 110vh;
+    background-color: rgb(216, 178, 157);
+}
+
+#doggie {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#dogin {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#dogbio {
+    height: 25vh;
+    width: 96vw;
+    background-color: white;
+    padding: 0vh 2vw;
+}
+
+#dogname {
+    font-family: "IM Fell English SC", sans-serif;
+    margin-top: 5%;
+}
+
+.card {
+    margin: 2vw;
+    width: 30vw;
+    height: 60vh;
+}
+
+#bio {
+    background-color: rgb(216, 178, 157);
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 28px;
+    font-family: "Noto Serif TC", serif;
+}
+
+#bioimg {
+    /* width: 20vw; */
+    height: 55vh;
+    border-radius: 50%;
+    margin: 12vh 5%;
+}
+
+.fb-btn {
+    background-color: rgb(216, 178, 157);
+}
+
+.ig-btn {
+    background-color: rgb(216, 178, 157);
+}
+
+.dog {
+    background-color: rgb(216, 178, 157);
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 28px;
+}
+
+.bigdog {
+    background-color: rgb(216, 178, 157);
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#dogimg {
+    /* width: 20vw; */
+    height: 40vh;
+    border-radius: 50%;
+    margin: 10vh 5%;
+}
+
+.tdog {
+    display: flex;
+    flex-direction: row;
+}
+
+.jjdog {
+    background-color: rgb(216, 178, 157);
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 28px;
+}
